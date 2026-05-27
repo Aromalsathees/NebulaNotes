@@ -124,4 +124,4 @@ http://127.0.0.1:8000/
 
 ## Support
 
-If you like this project, give it a ⭐
+If you like this project, feel free to follow me 
