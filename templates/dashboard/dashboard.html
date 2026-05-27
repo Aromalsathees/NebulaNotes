@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{% include 'dashboard/sidebar.html' %}
+
+<div class="container">
+    <div class="row">
+        <div class="flex-column">
+            <h2>category</h2>
+            {{category}}
+        </div>
+        <div>
+            <h2>blogs</h2>
+            {{blog}}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

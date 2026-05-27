@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+{% block content %}
+<div style="color:white" class="container mt-5">
+    
+    <div>
+        <img src="{{ blog.featured_image.url }}" width="300" height="200" alt="">
+        <h1> {{blog.title}}</h1>
+        <p>{{ blog.created_at }} | {{ blog.author }}</p>
+    </div>
+    <div>
+        <p>{{blog.short_description}}</p>
+        <p>{{blog.blog_body}}</p>
+    </div>
+    
+</div>
+{% endblock %}
